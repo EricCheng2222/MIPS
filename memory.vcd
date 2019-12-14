@@ -1,0 +1,48 @@
+$date
+	Sat Dec 14 18:54:14 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module memory_tb $end
+$var wire 32 ! dataout [31:0] $end
+$var reg 8 " addr [7:0] $end
+$var reg 8 # writeAddr [7:0] $end
+$var reg 32 $ writeData [31:0] $end
+$var reg 1 % writeEn $end
+$scope module memory_test $end
+$var wire 8 & addr [7:0] $end
+$var wire 8 ' writeAddr [7:0] $end
+$var wire 32 ( writeData [31:0] $end
+$var wire 1 % writeEn $end
+$var reg 32 ) dataOut [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11100011011100110110101001100010 )
+bx (
+bx '
+b0 &
+0%
+bx $
+bx #
+b0 "
+b11100011011100110110101001100010 !
+$end
+#5
+b111 $
+b111 (
+b1110 #
+b1110 '
+1%
+#10
+b111 !
+b111 )
+b1110 "
+b1110 &
+#15
