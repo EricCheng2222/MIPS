@@ -1,0 +1,56 @@
+$date
+	Sat Dec 14 17:32:28 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module register_tb $end
+$var wire 32 ! dataout2 [31:0] $end
+$var wire 32 " dataout1 [31:0] $end
+$var reg 5 # addr1 [4:0] $end
+$var reg 5 $ addr2 [4:0] $end
+$var reg 5 % writeAddr [4:0] $end
+$var reg 32 & writeData [31:0] $end
+$var reg 1 ' writeEn $end
+$scope module register_test $end
+$var wire 5 ( addr1 [4:0] $end
+$var wire 5 ) addr2 [4:0] $end
+$var wire 5 * writeAddr [4:0] $end
+$var wire 32 + writeData [31:0] $end
+$var wire 1 ' writeEn $end
+$var reg 32 , dataOut1 [31:0] $end
+$var reg 32 - dataOut2 [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx -
+bx ,
+bx +
+bx *
+b1 )
+b0 (
+0'
+bx &
+bx %
+b1 $
+b0 #
+bx "
+bx !
+$end
+#5
+b111 &
+b111 +
+b1110 %
+b1110 *
+1'
+#10
+b111 "
+b111 ,
+b1110 #
+b1110 (
+#15

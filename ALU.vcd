@@ -1,0 +1,43 @@
+$date
+	Sat Dec 14 18:13:05 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_tb $end
+$var wire 32 ! result [31:0] $end
+$var reg 6 " funct [5:0] $end
+$var reg 32 # reg1 [31:0] $end
+$var reg 32 $ reg2 [31:0] $end
+$scope module ALU_test $end
+$var wire 6 % funct [5:0] $end
+$var wire 32 & reg1 [31:0] $end
+$var wire 32 ' reg2 [31:0] $end
+$var reg 32 ( outData [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110010 (
+b10000 '
+b100010 &
+b100000 %
+b10000 $
+b100010 #
+b100000 "
+b110010 !
+$end
+#5
+b0 !
+b0 (
+b100100 "
+b100100 %
+b100100 $
+b100100 '
+b1001000 #
+b1001000 &
+#10
